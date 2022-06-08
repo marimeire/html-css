@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <H1>Imagens Dinâmicas</H1>
+    <P>Tente abrir essa pag em diferentes dispositivos, ou apenas mudando o tamanho do navegador</P>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+
+<h1>Reproduzindo áudios no HTML</h1>
+<P>Vamos incluir e reproduzir um arquivo de audio nesta página</P>
+<audio preload="metadata" controls loop>
+<source  src="happy-mistake.mp3"  type="audio/mpeg">
+</audio>
+
+</audio>
+<!--o parâmetro controls mostra os icones de play na tela, o parametro autoplay é autoexplicativo rsrs, o parametro loop repete o audio, o parametro metadata faz com que o arquivo seja carregado só quando o usuario der play-->
+<!--Formatos de áudio suportados: MP3, WAV, OGG-->
+
+
+</body>
+</html>

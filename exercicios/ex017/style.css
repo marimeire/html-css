@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body {
+    /*o navegador irá ler primeiro arial, depois helvetica, em seguida sans-serif*/
+    
+    font-size: 1em;
+    text-align: justify;
+    background-color: #eae2b7 ;
+    }
+    h1 , h2{
+        color: #d62828;
+    }
+    p {
+        color: #003049;
+    }
