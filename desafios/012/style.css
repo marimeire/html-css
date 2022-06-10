@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Freehand&family=Patrick+Hand&display=swap');
+
+:root {
+    --fonte1: Arial, Helvetica, sans-serif;
+    --fonte2: Passion one;
+}
+
 
 
 * {
@@ -9,6 +16,7 @@
 
 
 html, body {
+    font-family: var(--fonte1);
     min-width: 100vh;
     background-color: #eed8ae ;
 
@@ -21,6 +29,7 @@ header {
 }
 
 header > h1 {
+    font-family: var(--fonte2);
     padding-top: 50px;
     font-variant: small-caps;
 }
@@ -60,7 +69,7 @@ section.imagem {
 
 section.imagem >p {
     width: 400px;
-    background-color: rgba(83, 63, 32, 0.384);
+    background-color: rgba(184, 147, 78, 0.384);
 }
 
 footer {
