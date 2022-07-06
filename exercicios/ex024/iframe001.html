@@ -5,10 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IFRAMES</title>
+
+    <style>
+        iframe {
+            width: 500px;
+            height: 500px;
+            border-radius: 20px;
+            box-shadow: 8px 8px 30px rgba(0, 0, 0, 0.158);
+        }
+    </style>
+
+
 </head>
 <body>
     <h1>testando uso de iframes</h1>
-    <p>testando uso de iframes</p>
+    <!--O que são iframes: são parecidos com hiperlinks, porém abrem uma caixa inline (na mesma linha) carregando toda a página do link direcionado-->
+
+    <p>Acesssando o site do <iframe src="https://www.cursoemvideo.com/" frameborder="0"></iframe> curso em video para aprender a programar</p>
+
+    <p>O site <iframe src="https://disney.com.br/disneyplus" frameborder="0"></iframe>    também é bem legal.</p>
+
+
+    <!--Abaixo, vamos personalizar dimensões/tamanhos do iframe.
+    TAMANHO PADRÃO DO IFRAME: 300px X 150px -->
+
+    <p>O site <iframe  src="https://disney.com.br/disneyplus" frameborder="0" height="400px" width="350px"></iframe>    também é bem legal.</p>
+
+    
+    <!--Agora, iremos aprender a incluir conteúdos locais no iframe-->
+    <br>
+    <br>
+    <h1>CARREGANDO CONTEÚDOS LOCAIS NO IFRAME</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat neque iusto ab saepe dicta deleniti aliquam eveniet sequi quibusdam sed, dolorum tempore aliquid voluptate cumque sunt amet ad temporibus nihil.</p>
+
+    <iframe src="paginateste.html" frameborder="0"></iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat neque iusto ab saepe dicta deleniti aliquam eveniet sequi quibusdam sed, dolorum tempore aliquid voluptate cumque sunt amet ad temporibus nihil.</p>
+
+
     
 </body>
 </html>
